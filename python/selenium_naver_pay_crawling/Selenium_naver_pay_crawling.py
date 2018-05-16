@@ -8,7 +8,7 @@ driver.get('http://nid.naver.com/nidlogin.login')
 
 #insert id, password
 driver.find_element_by_name('id').send_keys('shb221b')
-driver.find_element_by_name('pw').send_keys('junginkim1!')
+driver.find_element_by_name('pw').send_keys('remove')
 
 #push login btn
 driver.find_element_by_xpath('//*[@id="frmNIDLogin"]/fieldset/input').click()
