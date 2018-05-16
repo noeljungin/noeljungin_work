@@ -1,3 +1,0 @@
-INDEX VERSION 1.130
-/Users/noel/Documents/port/spring/SpringBoot_JSP_Velocity_Thymeleaf/spring_view/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/767643583.index
-/springview/src/main/java
