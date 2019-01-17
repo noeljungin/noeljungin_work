@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:file:/tmp/testdb2
+    username: sa
+    password:
+    sql-script-encoding: UTF-8
+    

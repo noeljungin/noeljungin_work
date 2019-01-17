@@ -6,7 +6,7 @@ url = "https://www.billboard.com/charts/hot-100"
 def crll(url):
     src_cde = urllib.request.urlopen(url)
     soup = BeautifulSoup(src_cde, 'html.parser')
-    
+
     li = soup.find_all('div', 'chart-row__container')
     n = 1
     for chart in li:
