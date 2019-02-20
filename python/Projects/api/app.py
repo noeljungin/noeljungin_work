@@ -13,12 +13,29 @@ class CustomJSONEncoder(JSONEncoder):
             return list(obj)
 
         return JSONEncoder.default(self, obj)
-#app = Flask(__name__)
 
-#app.id_count     = 1
-#app.users        = {}
-#app.tweets       = []
-#app.json_encoder = CustomJSONEncoder
+
+
+def get_user(user_id):
+    user = current_app.database.execute(text("""
+        SELECT
+            id,
+            name,
+            email,
+            profile
+        FROM users
+        WHERE id = :user_id
+    """), {
+        'user_id' : user_id
+    }).fetchone()
+
+    return {
+        'id'        : user['id'],
+        'name'      : user['name'],
+        'email'     : user['email'],
+        'profile'   : user['profile']
+    } if user else None
+
 
 
 
