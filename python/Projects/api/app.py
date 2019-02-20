@@ -3,6 +3,7 @@ from flask.json import JSONEncoder
 from sqlalchemy import create_engine, text
 
 
+
 ## Default JSON encoder는 set를 JSON으로 변환할 수 없다.
 ## 그럼으로 커스텀 엔코더를 작성해서 set을 list로 변환하여
 ## JSON으로 변환 가능하게 해주어야 한다.
@@ -12,13 +13,14 @@ class CustomJSONEncoder(JSONEncoder):
             return list(obj)
 
         return JSONEncoder.default(self, obj)
-
 #app = Flask(__name__)
 
 #app.id_count     = 1
 #app.users        = {}
 #app.tweets       = []
 #app.json_encoder = CustomJSONEncoder
+
+
 
 def create_app(test_config = None):
     app = Flask(__name__)
@@ -74,6 +76,7 @@ def create_app(test_config = None):
         return jsonify(create_user)
 
 
+
     @app.route('/tweet', methods=['POST'])
     def tweet():
         user_tweet   = request.json
@@ -113,9 +116,6 @@ def create_app(test_config = None):
             """), user_follow).rowcount
 
         return jsonify({'user_id': user_id, 'follow':follow})
-
-
-
 
 
 
@@ -159,6 +159,5 @@ def create_app(test_config = None):
             'user_id'   : user_id,
             'timeline'  : timeline
             })
-    
 
     return app
