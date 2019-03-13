@@ -1,0 +1,3 @@
+[rank=1song=Despacito1lastweek=1imagesrc=http://jpg1artist=luis fonsi1]
+[rank=2song=Despacito2lastweek=2imagesrc=http://jpg2artist=luis fonsi2]
+[rank=1song=Despacito3lastweek=3imagesrc=http://jpg3artist=luis fonsi3]
