@@ -22,4 +22,9 @@ public class j062 {
 		}
 	}
 
+	public static String toWantedDay(String rs, int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
