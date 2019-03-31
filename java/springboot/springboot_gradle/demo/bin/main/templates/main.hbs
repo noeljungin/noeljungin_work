@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>asufdsadfasdf</title>
+    <link rel="stylesheet" href="/css/lib/bootstrap.min.css">
+</head>
+<body>
+	<div class="col-md-12">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#savePostsModal">글등록</button>
+        <br>
+        <br>
+        <!-- all list -->
+        <table class="table table-horizontal table-bordered">
+            <thead class="thead-string">
+                <tr>
+                    <th>num</th>
+                    <th>subject</th>
+                    <th>author</th>
+                    <th>date</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                {{#each posts}}
+                    <tr>
+                        <td>{{id}}</td>
+                        <td>{{title}}</td>
+                        <td>{{author}}</td>
+                        <td>{{modifiedDate}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>                
+    </div>
+
+    <div class="modal fade" id="savePostsModal" tabindex="-1" role="dialog" aria-labelledby="savePostsLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="savePostsLabel">게시글등록</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="title">title</label>
+                            <input type="text" class="form-control" id="title" placeholder="insert title">
+                        </div>
+                        <div class="form-group">
+                            <label for="author">author</label>
+                            <input type="text" class="form-controll" id="author" placeholder="insert author">
+                        </div>
+                        <div class="form-group">
+                            <label for="content">content</label>
+                            <textarea class="form-control" id="content" placeholder="input content"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">cancel</button>
+                    <button type="button" class="btn btn-primary" id="btn-save">save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="/js/lib/bootstrap.min.js"></script>    
+    <script src="/js/app/main.js"></script>
+</body>
+</html>
