@@ -1,0 +1,2 @@
+insert into posts (title, author, content, create_date, modified_date) values('title1', 'author1', 'content1', now(), now());
+insert into posts (title, author, content, create_date, modified_date) values('title2', 'author2', 'content2', now(), now());
