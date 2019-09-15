@@ -1,0 +1,162 @@
+1564154048045	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.Wx9YWjXwEVX1"
+1564154048678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564154048679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564154048679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564154048679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564154050259	Marionette	INFO	Listening on port 57636
+1564154050344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+JavaScript warning: http://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+JavaScript warning: http://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+JavaScript warning: http://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+1564154083098	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.7Knyaro4UPrM"
+1564154083655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564154083655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564154083655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564154083655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564154085229	Marionette	INFO	Listening on port 58022
+1564154085277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+JavaScript warning: http://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564066175926%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564066175926%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1564154127042	Marionette	INFO	Stopped listening on port 58022
+1564154129496	Marionette	INFO	Stopped listening on port 57636
+1564155108614	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.vcDIyccAqgZZ"
+1564155109135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155109135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155109135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155109135	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155110727	Marionette	INFO	Listening on port 59061
+1564155110774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564066175926%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1564155242075	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.qiKaRgqBM0wj"
+1564155242542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155242542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155242542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155242542	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155244079	Marionette	INFO	Listening on port 59700
+1564155244142	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+1564155255897	Marionette	INFO	Stopped listening on port 59700
+1564155280267	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.n7jL73dcl91Y"
+1564155280729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155280729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155280729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155280729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155282290	Marionette	INFO	Listening on port 59968
+1564155282309	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+1564155474824	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.s3Ppql4ymNUA"
+1564155475331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155475331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155475332	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155475332	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155476938	Marionette	INFO	Listening on port 60373
+1564155476977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+1564155500167	Marionette	INFO	Stopped listening on port 59968
+1564155505944	Marionette	INFO	Stopped listening on port 60373
+1564155506077	Marionette	INFO	Stopped listening on port 59061
+1564155588905	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.6TGYdaPw66nU"
+1564155589384	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155589384	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155589385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155589385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155590928	Marionette	INFO	Listening on port 60732
+1564155590973	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564066175926%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1564155822572	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.BH25ohF3OgFr"
+1564155823043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155823043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155823043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155823043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155824612	Marionette	INFO	Listening on port 61777
+1564155824639	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+1564155841044	Marionette	INFO	Stopped listening on port 61777
+1564155841059	Marionette	INFO	Stopped listening on port 60732
+1564155915921	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.BIqAayywfO8O"
+1564155916408	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564155916408	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564155916409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564155916409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564155918002	Marionette	INFO	Listening on port 62264
+1564155918085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564066175926%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1564156295702	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.gn1rQsqF7Nsv"
+1564156296169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564156296169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564156296169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564156296169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564156297711	Marionette	INFO	Listening on port 63890
+1564156297768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+1564156331338	Marionette	INFO	Stopped listening on port 62264
+1564156331755	Marionette	INFO	Stopped listening on port 63890
+1564156383038	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.L32x42Uppwt9"
+1564156383513	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564156383513	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564156383513	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564156383513	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564156385046	Marionette	INFO	Listening on port 64348
+1564156385111	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+1564156425091	Marionette	INFO	Stopped listening on port 64348
+1564156434991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/8s/pf630zr91pdfyrwjt_6mspq40000gn/T/rust_mozprofile.iOhYMPBRVmZS"
+1564156435471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564156435471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564156435471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564156435471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564156436966	Marionette	INFO	Listening on port 64659
+1564156437052	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ticket.interpark.com/Lib/js/TicketMain.js, line 64: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564066175926%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1564157646258	Marionette	INFO	Stopped listening on port 64659
