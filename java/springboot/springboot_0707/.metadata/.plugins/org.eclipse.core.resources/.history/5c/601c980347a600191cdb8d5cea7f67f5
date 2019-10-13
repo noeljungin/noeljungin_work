@@ -1,0 +1,22 @@
+package readinglist;
+
+import java.util.Collection;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+@Entity
+public class Reader implements UserDetails {
+	
+	private static final long serialVersionUID=1L;
+	
+	@Id
+	private String username;
+	private String fullname;
+	private String password;
+
+
+}

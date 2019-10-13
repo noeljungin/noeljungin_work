@@ -1,0 +1,6 @@
+package hello;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Quote {
+
+}

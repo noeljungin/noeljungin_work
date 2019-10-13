@@ -1,0 +1,9 @@
+package com.example.demo.domain;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+//myBatis에서는 DAO를 생성하지만 JPA에서는 Repository 라고 부르며 interface로 생성한다
+public interface PostsRepository extends JpaRepository<Posts, Long>{
+
+	
+}

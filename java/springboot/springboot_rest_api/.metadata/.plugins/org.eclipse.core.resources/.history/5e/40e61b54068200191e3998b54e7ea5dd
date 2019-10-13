@@ -1,0 +1,6 @@
+package hello;
+
+@Component
+public class ScheduledTasks {
+
+}

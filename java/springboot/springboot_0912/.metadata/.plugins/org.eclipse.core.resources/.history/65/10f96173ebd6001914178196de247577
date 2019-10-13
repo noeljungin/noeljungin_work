@@ -1,0 +1,6 @@
+package board.common;
+
+public class FileUtils {
+	
+
+}

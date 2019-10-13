@@ -1,0 +1,12 @@
+package sample.controller;
+
+@RestController
+public class HelloController {
+	
+	@RequestMapping("/")
+	public String hello() {
+		
+	}
+	
+
+}

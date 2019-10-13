@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+/Users/noel/Documents/GitHub/work/java/springboot/springboot_0620/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1924484980.index

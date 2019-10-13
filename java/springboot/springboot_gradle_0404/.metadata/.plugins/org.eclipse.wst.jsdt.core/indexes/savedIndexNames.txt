@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+/Users/noel/Documents/GitHub/work/java/springboot/springboot_gradle_0404/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

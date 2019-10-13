@@ -1,0 +1,17 @@
+package board.board.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class JpaBoardController {
+	
+	@Autowired
+	private JpaBoardService jpaBoardService;
+	
+	
+	
+	
+	
+	
+
+}

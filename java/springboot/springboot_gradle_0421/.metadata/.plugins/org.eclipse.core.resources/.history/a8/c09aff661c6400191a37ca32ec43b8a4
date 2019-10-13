@@ -1,0 +1,8 @@
+package com.example.demo.domain;
+
+@Getter
+@MappedSuperclass
+@EntityLISTENERS
+public class BaseTimeEntity {
+
+}

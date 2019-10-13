@@ -1,0 +1,14 @@
+package board.board.service;
+
+import java.util.List;
+
+import board.board.entity.BoardEntity;
+
+public interface JpaBoardService {
+	 
+	List<BoardEntity> selectBoardList() throws Exception;
+	
+	void saveBoard(BoardEntity board, MultipartHttpServletRequest multipartHttpServletRequest) throws Exception;
+	
+	
+}

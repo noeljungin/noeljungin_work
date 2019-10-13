@@ -1,0 +1,10 @@
+package board.board.service;
+
+
+public interface JpaBoardService {
+	 
+	List<BoardEntity> selectBoardList() throws Exception;
+	
+	
+	
+}

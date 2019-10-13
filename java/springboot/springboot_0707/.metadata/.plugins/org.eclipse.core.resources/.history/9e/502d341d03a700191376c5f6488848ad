@@ -1,0 +1,5 @@
+server.port=8000
+server.ssl.key-store=file:///path/to/mykeys.jks
+server.ssl.key-store-password=noel
+server.ssl.key-password=noel
+spring.thymeleaf.cache=false

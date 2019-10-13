@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>opps!</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}"></link>
+</head>
+<body>
+	<div class="errorPage">
+		<span class="opps">opps!</span><br/>
+		<img th:src="@{/images/MissingPage.png}"></img>
+	
+	
+	
+	</div>
+</body>
+</html>

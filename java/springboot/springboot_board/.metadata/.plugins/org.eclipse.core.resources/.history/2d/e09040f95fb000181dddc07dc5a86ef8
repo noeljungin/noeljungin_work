@@ -1,0 +1,12 @@
+package com.example.demo.board.domain;
+
+import java.util.Date;
+
+public class BoardVO {
+
+	private int bno;
+	private String subject;
+	private String content;
+	private String wirter;
+	private Date reg_date;
+}

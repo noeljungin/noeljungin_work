@@ -1,0 +1,8 @@
+server.port=8443
+server.ssl.key-store=file:///path/to/mykeys.jks
+server.ssl.key-store-password=noel
+server.ssl.key-password=noel
+spring.thymeleaf.cache=false
+logging.level.root=WARN
+logging.level.org.springframework.security=DEBUG
+logging.path=/var/logs/

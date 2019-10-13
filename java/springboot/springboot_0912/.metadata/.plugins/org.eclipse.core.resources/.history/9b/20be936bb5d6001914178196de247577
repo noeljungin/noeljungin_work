@@ -1,0 +1,7 @@
+package board.aop;
+
+@Component
+@Aspect
+public class LoggerAspect {
+
+}

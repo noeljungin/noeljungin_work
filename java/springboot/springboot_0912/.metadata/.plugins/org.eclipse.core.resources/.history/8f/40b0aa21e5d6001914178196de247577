@@ -1,0 +1,19 @@
+package board.aop;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.PlatformTransactionManager;
+
+@Configuration
+public class TransactionAspect {
+	
+	private static final String AOP_TRANSACTION_METHOD_NAME = "*";
+	private static final String AOP_TRANSACTION_EXPRESSION = "execution(* board..service.*Impl.*(..))";
+	
+	@Autowired
+	private PlatformTransactionManager transactionManager;
+	
+	@Bean
+	
+
+}

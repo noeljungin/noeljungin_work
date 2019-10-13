@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}"></link>
+</head>
+<body onload='document.f.username.focus();'>
+	<div id="loginForm">
+		<h3>Login with Username and Password</h3>
+		<div class="error" th:if="${param.error}">
+			Incorrect username or password. Try Again		
+		</div>
+	</div>
+
+</body>
+</html>

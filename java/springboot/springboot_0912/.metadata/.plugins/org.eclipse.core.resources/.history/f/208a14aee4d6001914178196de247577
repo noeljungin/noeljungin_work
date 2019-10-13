@@ -1,0 +1,6 @@
+package board.aop;
+
+@Configuration
+public class TransactionAspect {
+
+}

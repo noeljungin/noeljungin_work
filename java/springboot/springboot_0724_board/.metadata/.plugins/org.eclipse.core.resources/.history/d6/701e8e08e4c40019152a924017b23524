@@ -1,0 +1,5 @@
+package board.board.repository;
+
+public class JpaBoardRepository {
+
+}

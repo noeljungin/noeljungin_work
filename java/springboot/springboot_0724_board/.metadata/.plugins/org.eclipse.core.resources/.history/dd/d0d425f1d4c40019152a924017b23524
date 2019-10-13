@@ -1,0 +1,21 @@
+package board.board.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import board.board.service.BoardService;
+
+@RestController
+public class RestBoardApiController {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	@RequestMapping(value="/api/board", method=REquestMethod.GET)
+	public List<BoardDto> openBoardList() throws Exception{
+		
+	}
+	
+	
+
+}

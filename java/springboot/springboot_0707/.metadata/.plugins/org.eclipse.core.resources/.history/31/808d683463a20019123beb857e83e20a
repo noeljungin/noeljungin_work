@@ -1,0 +1,14 @@
+package readinglist;
+
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringApplicationCOnfiguration(classes=ReadingListApplication.class)
+@WebAppConfiguration
+public class ReadingListApplicationTests {
+	
+	@Test
+	public void contextLoads() {
+		
+	}
+
+}

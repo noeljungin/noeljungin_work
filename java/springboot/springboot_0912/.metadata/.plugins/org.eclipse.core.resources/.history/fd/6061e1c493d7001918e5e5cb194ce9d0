@@ -1,0 +1,6 @@
+package board.board.controller;
+
+@Controller
+public class RestBoardController {
+
+}

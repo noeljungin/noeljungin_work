@@ -1,0 +1,5 @@
+package board.aop;
+
+public @interface Slf5j {
+
+}

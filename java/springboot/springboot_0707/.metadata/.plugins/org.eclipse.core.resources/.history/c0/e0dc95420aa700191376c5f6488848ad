@@ -1,0 +1,6 @@
+package readinglist;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+public class MockMvcWebTests {
+
+}

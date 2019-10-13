@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=15
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.h2=15
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.thymeleaf=15
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=15
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=demo-3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=1.5.21.RELEASE
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=readinglist
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=demo-3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=readinglist
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=GRADLE-Buildship 3.x
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

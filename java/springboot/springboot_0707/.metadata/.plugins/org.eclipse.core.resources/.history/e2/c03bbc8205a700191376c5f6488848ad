@@ -1,0 +1,8 @@
+package readinglist;
+
+
+@Component
+@ConfigurationProperties("amazon")
+public class AmazonProperties {
+
+}

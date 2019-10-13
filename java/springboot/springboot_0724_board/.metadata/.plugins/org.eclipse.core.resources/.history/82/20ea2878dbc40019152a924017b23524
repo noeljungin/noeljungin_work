@@ -1,0 +1,9 @@
+package board.board.entity;
+
+@Entity
+@Table(name="t_jpa_board")
+@NoArgsConstructor
+@Data
+public class BoardEntity {
+
+}

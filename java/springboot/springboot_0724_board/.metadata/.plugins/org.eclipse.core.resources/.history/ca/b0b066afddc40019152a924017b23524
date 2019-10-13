@@ -1,0 +1,24 @@
+package board.board.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class JpaBoardController {
+	
+	@Autowired
+	private JpaBoardService jpaBoardService;
+	
+	@RequestMapping(value="/jpa/board", method=RequestMethod.GET)
+	public ModelAndView openBoardList(ModelMap model) throws Exception{
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package readinglist;
+
+import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurer {
+
+}

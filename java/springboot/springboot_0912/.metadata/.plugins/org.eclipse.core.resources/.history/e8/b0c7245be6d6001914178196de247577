@@ -1,0 +1,6 @@
+package board.common;
+
+@Slf4j
+public class ExceptionHandler {
+
+}

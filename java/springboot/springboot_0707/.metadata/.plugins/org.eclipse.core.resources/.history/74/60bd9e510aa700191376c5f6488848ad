@@ -1,0 +1,10 @@
+package readinglist;
+
+import org.junit.runner.RunWith;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@SprinbApplicationConfiguration(classes=ReadingListApplication.class)
+@WebAppConfiguration
+public class MockMvcWebTests {
+
+}

@@ -1,0 +1,13 @@
+package board.common;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class ExceptionHandler {
+	
+	@org.springframework.web.bind.annotation.ExceptionHandler(Exception.class)
+	public ModelAndView defaultExceptionhandler(HttpServletRequest request, Exception exception) {
+		
+	}
+
+}

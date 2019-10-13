@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+
+public class App {
+
+	public static void main(String[] args) {
+		try(ConfigurableApplicationContext context = SpringApplication.run(App.class, args)) {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

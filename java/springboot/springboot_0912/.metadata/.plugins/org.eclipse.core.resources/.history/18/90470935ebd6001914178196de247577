@@ -1,0 +1,6 @@
+package board.board.dto;
+
+@Data
+public class BoardFileDto {
+
+}

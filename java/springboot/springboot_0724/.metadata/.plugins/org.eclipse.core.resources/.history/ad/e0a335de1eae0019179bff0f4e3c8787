@@ -1,0 +1,8 @@
+package sample.controller;
+
+@RestController
+public class HelloController {
+	
+	
+
+}

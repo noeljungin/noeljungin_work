@@ -1,0 +1,8 @@
+package com.example.demo.domain;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class PostsSaveRequestDto {
+
+}
